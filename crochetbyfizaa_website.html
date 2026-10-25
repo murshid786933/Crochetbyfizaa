@@ -1,0 +1,315 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="theme-color" content="#fff8fa">
+<meta name="description" content="Handcrafted crochet creations and adorable little gifts, made with love and care at crochetbyfizaa.">
+<title>crochetbyfizaa — My Crochet Diary</title>
+<style>
+:root{--ink:#40343b;--muted:#766971;--pink:#f5dce5;--pink-deep:#d98ba8;--lav:#e9e2f7;--cream:#fff7e9;--peach:#f9e4d7;--paper:#fffdfc;--line:#f0e5e9;--shadow:0 12px 32px rgba(91,54,71,.09);--radius:22px}
+*{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font-family:ui-rounded,"Avenir Next",Avenir,system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif;line-height:1.6}a{color:inherit;text-decoration:none}button,input,textarea{font:inherit}button,a{ -webkit-tap-highlight-color:transparent}button{cursor:pointer}.container{width:min(1160px,calc(100% - 36px));margin-inline:auto}.announcement{background:var(--lav);text-align:center;padding:7px 12px;font-size:.83rem;letter-spacing:.03em}.site-header{position:sticky;top:0;z-index:20;background:rgba(255,253,252,.94);backdrop-filter:blur(14px);border-bottom:1px solid var(--line)}.nav-wrap{display:flex;align-items:center;justify-content:space-between;gap:18px;min-height:76px}.brand{display:flex;flex-direction:column;line-height:1.2}.brand strong{font-size:1.35rem;letter-spacing:-.045em}.brand span{font-size:.75rem;color:var(--muted);margin-top:5px}.nav-links{display:flex;align-items:center;gap:22px;font-size:.92rem}.nav-links a:hover,.footer-links a:hover{color:#b76585}.nav-actions{display:flex;align-items:center;gap:10px}.cart-pill{border:0;background:var(--pink);border-radius:999px;padding:10px 15px;color:var(--ink);font-weight:700;white-space:nowrap}.menu-toggle{display:none;border:1px solid var(--line);background:white;border-radius:12px;padding:8px 11px}.hero{padding:34px 0 48px}.hero-panel{display:grid;grid-template-columns:1fr 1fr;align-items:center;overflow:hidden;border-radius:30px;background:linear-gradient(125deg,#fff0f4,#f9f1ff 55%,#fff7ec);min-height:440px}.hero-copy{padding:clamp(28px,5vw,68px)}.eyebrow{text-transform:uppercase;letter-spacing:.16em;font-size:.75rem;font-weight:800;color:#b76585}.hero h1{font-size:clamp(2.7rem,5.5vw,5rem);letter-spacing:-.065em;line-height:1.02;margin:14px 0 8px}.hero h2{font-size:clamp(1.1rem,2vw,1.5rem);font-weight:600;margin:0 0 16px;color:#80576a}.hero p{max-width:430px;color:var(--muted);margin:0 0 26px}.hero-image{height:100%;min-height:440px;position:relative}.hero-image img{width:100%;height:100%;position:absolute;inset:0;object-fit:cover}.hero-image:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(255,240,244,.18),transparent 35%);pointer-events:none}.btn{display:inline-flex;align-items:center;justify-content:center;gap:8px;border:0;border-radius:999px;padding:12px 20px;font-weight:750;transition:transform .18s,box-shadow .18s}.btn:hover{transform:translateY(-2px);box-shadow:0 8px 20px #a46c821f}.btn-primary{background:var(--ink);color:white}.btn-soft{background:var(--pink);color:var(--ink)}.btn-outline{background:white;border:1px solid var(--line);color:var(--ink)}.section{padding:46px 0}.section-head{display:flex;align-items:end;justify-content:space-between;gap:20px;margin-bottom:25px}.section-head h2,.about-copy h2,.contact-card h2{font-size:clamp(1.8rem,3vw,2.6rem);letter-spacing:-.05em;line-height:1.12;margin:6px 0}.section-head p{color:var(--muted);margin:7px 0 0}.category-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:16px}.category-card{border-radius:var(--radius);padding:24px;min-height:130px;display:flex;flex-direction:column;justify-content:space-between;border:1px solid #fff}.category-card:nth-child(1){background:#fce8ef}.category-card:nth-child(2){background:#eee8fb}.category-card:nth-child(3){background:#fff0df}.category-card strong{font-size:1.1rem}.category-card span{font-size:.9rem;color:var(--muted)}.filters{display:flex;gap:9px;flex-wrap:wrap;margin-bottom:22px}.filter-btn{border:1px solid var(--line);background:white;color:var(--muted);border-radius:999px;padding:9px 15px}.filter-btn[aria-pressed="true"]{background:var(--ink);border-color:var(--ink);color:white}.product-grid{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:22px}.product-card{border:1px solid var(--line);border-radius:var(--radius);overflow:hidden;background:white;box-shadow:0 4px 16px rgba(91,54,71,.035);display:flex;flex-direction:column;min-width:0}.product-image{aspect-ratio:4/3;background:#fbf4f6;overflow:hidden}.product-image img{width:100%;height:100%;object-fit:cover;display:block;transition:transform .35s}.product-card:hover .product-image img{transform:scale(1.04)}.product-info{padding:17px;display:flex;flex-direction:column;flex:1}.product-category{font-size:.72rem;letter-spacing:.09em;text-transform:uppercase;color:#ad6f87;font-weight:800}.product-info h3{font-size:1.12rem;margin:5px 0 4px;line-height:1.3}.product-info p{color:var(--muted);font-size:.9rem;margin:0 0 15px;flex:1}.product-bottom{display:flex;align-items:center;justify-content:space-between;gap:10px}.price{font-weight:850;font-size:1.12rem;white-space:nowrap}.add-btn{border:0;background:var(--pink);color:var(--ink);font-weight:750;border-radius:999px;padding:9px 13px}.add-btn:hover{background:#efc9d8}.about-panel{display:grid;grid-template-columns:.8fr 1.2fr;gap:30px;align-items:center;background:linear-gradient(120deg,#fff2f5,#f5f0ff);border-radius:30px;padding:clamp(24px,5vw,52px)}.about-art{border-radius:24px;background:var(--cream);min-height:220px;display:grid;place-items:center;font-size:5rem}.about-copy p{color:var(--muted);max-width:620px}.contact-grid{display:grid;grid-template-columns:1fr 1fr;gap:18px}.contact-card{border:1px solid var(--line);border-radius:var(--radius);padding:25px;background:white}.contact-card p{color:var(--muted);overflow-wrap:anywhere}.contact-item{display:flex;gap:12px;align-items:flex-start;margin:16px 0}.contact-icon{width:38px;height:38px;display:grid;place-items:center;border-radius:13px;background:var(--pink);flex-shrink:0}.contact-item strong{display:block}.contact-item span,.contact-item a{font-size:.93rem;color:var(--muted)}.site-footer{margin-top:50px;background:#f9f1f4;padding:30px 0}.footer-wrap{display:flex;justify-content:space-between;gap:20px;align-items:center}.footer-links{display:flex;gap:17px;flex-wrap:wrap;font-size:.9rem}.footer-note{color:var(--muted);font-size:.82rem;margin-top:10px}.floating-cart{position:fixed;right:20px;bottom:20px;z-index:25;border:0;background:var(--ink);color:white;border-radius:999px;padding:14px 18px;box-shadow:0 12px 28px #40343b38;font-weight:800;display:flex;align-items:center;gap:10px}.count{background:var(--pink);color:var(--ink);min-width:24px;height:24px;border-radius:50%;display:grid;place-items:center;font-size:.8rem}.whatsapp-float{position:fixed;left:18px;bottom:20px;z-index:24;border-radius:999px;padding:12px 16px;background:#dcf8e7;color:#14532d;font-weight:800;box-shadow:0 10px 24px #234e3620}.overlay{position:fixed;inset:0;z-index:40;background:#2418218c;display:none;align-items:stretch;justify-content:flex-end}.overlay.open{display:flex}.drawer{background:#fffdfc;width:min(520px,100%);height:100%;overflow:auto;padding:22px;box-shadow:-10px 0 30px #24182118}.drawer-head{display:flex;justify-content:space-between;align-items:center;gap:12px;border-bottom:1px solid var(--line);padding-bottom:14px}.drawer-head h2{margin:0;letter-spacing:-.04em}.icon-btn{border:1px solid var(--line);background:white;border-radius:12px;padding:7px 11px;font-size:1.1rem}.cart-items{display:grid;gap:13px;margin:20px 0}.cart-item{display:grid;grid-template-columns:68px 1fr auto;gap:12px;align-items:center;padding-bottom:13px;border-bottom:1px solid var(--line)}.cart-item img{width:68px;height:68px;object-fit:cover;border-radius:14px;background:#f9f0f3}.cart-item h3{font-size:.95rem;margin:0 0 3px}.cart-item small{color:var(--muted)}.quantity{display:flex;align-items:center;gap:9px;margin-top:7px}.quantity button{width:27px;height:27px;border:1px solid var(--line);background:white;border-radius:8px}.remove-btn{border:0;background:transparent;color:#a54d6e;font-size:.82rem;padding:4px}.cart-total{display:flex;justify-content:space-between;align-items:center;font-size:1.15rem;font-weight:850;padding:14px 0;border-top:1px solid var(--line)}.empty-cart{text-align:center;padding:38px 12px;color:var(--muted)}.empty-cart .emoji{font-size:3rem}.checkout{border-top:1px solid var(--line);padding-top:20px;margin-top:15px}.checkout h3{margin:0 0 12px}.field{display:grid;gap:6px;margin:12px 0}.field label{font-size:.88rem;font-weight:750}.field input,.field textarea{width:100%;border:1px solid #e7dce1;border-radius:12px;padding:11px 12px;background:white;color:var(--ink)}.field input:focus,.field textarea:focus{outline:2px solid #edc7d7;border-color:#d98ba8}.field textarea{min-height:85px;resize:vertical}.checkout .btn{width:100%;margin-top:8px}.form-message{padding:12px;border-radius:12px;margin:12px 0;font-size:.9rem}.form-message.error{background:#fff0ef;color:#8a2929}.form-message.success{background:#eaf8ef;color:#205a35}.hidden{display:none!important}.config-note{font-size:.8rem;color:#8b6b35;background:#fff6df;padding:10px 12px;border-radius:10px;margin:12px 0}.order-summary{white-space:pre-wrap;background:#faf4f6;border-radius:12px;padding:12px;font-size:.86rem;max-height:180px;overflow:auto}.noscript{padding:14px;background:#fff0ef;color:#842a2a;text-align:center}
+@media(max-width:850px){.nav-links{gap:13px;font-size:.85rem}.hero-panel{grid-template-columns:1fr 1fr}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr))}.hero-image,.hero-panel{min-height:370px}.hero-image{min-height:370px}.about-panel{grid-template-columns:.7fr 1.3fr}}
+@media(max-width:650px){.container{width:min(100% - 26px,1160px)}.nav-wrap{min-height:68px;flex-wrap:wrap;padding:10px 0}.brand strong{font-size:1.15rem}.brand span{font-size:.68rem}.menu-toggle{display:block}.nav-links{display:none;order:3;width:100%;padding:10px 0 4px;flex-wrap:wrap;gap:12px 20px}.nav-links.show{display:flex}.nav-actions{margin-left:auto}.cart-pill{padding:8px 11px;font-size:.85rem}.hero{padding:18px 0 28px}.hero-panel{grid-template-columns:1fr;min-height:unset}.hero-copy{padding:30px 24px 24px}.hero h1{font-size:3.25rem}.hero-image{min-height:270px;max-height:330px;position:relative}.hero-image img{position:absolute}.section{padding:30px 0}.section-head{align-items:flex-start;flex-direction:column;margin-bottom:18px}.category-grid{grid-template-columns:1fr;gap:10px}.category-card{min-height:100px;padding:18px}.product-grid{grid-template-columns:repeat(2,minmax(0,1fr));gap:12px}.product-info{padding:12px}.product-info h3{font-size:1rem}.product-info p{font-size:.82rem}.product-bottom{align-items:flex-start;flex-direction:column;gap:8px}.add-btn{width:100%}.about-panel{grid-template-columns:1fr;gap:20px;padding:22px}.about-art{min-height:140px;font-size:4rem}.contact-grid{grid-template-columns:1fr}.footer-wrap{align-items:flex-start;flex-direction:column}.whatsapp-float{left:10px;bottom:12px;padding:10px 12px;font-size:.85rem}.floating-cart{right:10px;bottom:12px;padding:11px 13px}.drawer{padding:17px}.cart-item{grid-template-columns:56px 1fr auto;gap:9px}.cart-item img{width:56px;height:56px}}
+@media(max-width:360px){.product-grid{grid-template-columns:1fr}.hero h1{font-size:2.7rem}}
+</style>
+</head>
+<body>
+<div class="announcement">Little things, handmade with lots of love ♡</div>
+<header class="site-header">
+  <div class="container nav-wrap">
+    <a class="brand" href="#home" aria-label="crochetbyfizaa home"><strong>crochetbyfizaa</strong><span>My Crochet Diary — Custom Made with Love</span></a>
+    <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mainNav">☰ <span class="sr-only">Menu</span></button>
+    <nav class="nav-links" id="mainNav" aria-label="Main navigation">
+      <a href="#home">Home</a><a href="#categories">Categories</a><a href="#products">Shop</a><a href="#about">About</a><a href="#contact">Contact</a>
+    </nav>
+    <div class="nav-actions"><button class="cart-pill" id="headerCart" type="button">♡ Cart (<span id="headerCount">0</span>)</button></div>
+  </div>
+</header>
+<main>
+<section class="hero" id="home"><div class="container"><div class="hero-panel">
+  <div class="hero-copy"><div class="eyebrow">Made by hand, made with heart</div><h1>My Crochet Diary</h1><h2>Custom Made with Love</h2><p>Handcrafted crochet creations and adorable little gifts, made with love and care.</p><a class="btn btn-primary" href="#products">Shop Now <span aria-hidden="true">→</span></a></div>
+  <div class="hero-image"><img src="https://i.ibb.co/b5zTWpXW/IMG-3194.jpg" alt="Handmade crochet creations by crochetbyfizaa" fetchpriority="high"></div>
+</div></div></section>
+
+<section class="section" id="categories"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">Find your favourite</div><h2>Shop by category</h2><p>Little handmade treasures for you and your loved ones.</p></div></div>
+  <div class="category-grid">
+    <a class="category-card" href="#products" data-category-link="Keychains"><strong>♡ Keychains</strong><span>Personalised & cute little companions →</span></a>
+    <a class="category-card" href="#products" data-category-link="Charms"><strong>✿ Charms</strong><span>Small details, extra sweetness →</span></a>
+    <a class="category-card" href="#products" data-category-link="Crochet Gifts & Decor"><strong>୨୧ Crochet Gifts & Decor</strong><span>Thoughtful gifts made by hand →</span></a>
+  </div>
+</div></section>
+
+<section class="section" id="products"><div class="container">
+  <div class="section-head"><div><div class="eyebrow">The handmade collection</div><h2>Little things to love</h2><p>Each piece is made with care, just for a little extra joy.</p></div></div>
+  <div class="filters" role="group" aria-label="Filter products">
+    <button class="filter-btn" type="button" data-filter="All" aria-pressed="true">All products</button>
+    <button class="filter-btn" type="button" data-filter="Keychains" aria-pressed="false">Keychains</button>
+    <button class="filter-btn" type="button" data-filter="Charms" aria-pressed="false">Charms</button>
+    <button class="filter-btn" type="button" data-filter="Crochet Gifts & Decor" aria-pressed="false">Crochet Gifts & Decor</button>
+  </div>
+  <div class="product-grid" id="productGrid" aria-live="polite"></div>
+</div></section>
+
+<section class="section" id="about"><div class="container"><div class="about-panel">
+  <div class="about-art" aria-hidden="true">🧶🌷</div>
+  <div class="about-copy"><div class="eyebrow">A little about us</div><h2>A Little Crochet Diary</h2><p>Welcome to crochetbyfizaa, where every creation is made with love. From adorable keychains and tiny charms to thoughtful handmade gifts, each piece is crafted to bring a little happiness to your day. Find something special for yourself or someone you love.</p><a class="btn btn-soft" href="#products">Explore the collection</a></div>
+</div></div></section>
+
+<section class="section" id="contact"><div class="container"><div class="section-head"><div><div class="eyebrow">Say hello</div><h2>We'd love to hear from you</h2><p>Questions, custom requests, or a little crochet chat — get in touch.</p></div></div>
+  <div class="contact-grid">
+    <div class="contact-card"><h2>Contact details</h2>
+      <div class="contact-item"><div class="contact-icon">✉</div><div><strong>Email</strong><a href="mailto:crochetbyfiza@gmail.com">crochetbyfiza@gmail.com</a></div></div>
+      <div class="contact-item"><div class="contact-icon">⌖</div><div><strong>Location</strong><span>Rassaz Greens, Medetiya Nagar, Queens Park, Mira Road East, Mira Bhayandar, Maharashtra 401105</span></div></div>
+      <div class="contact-item"><div class="contact-icon">♡</div><div><strong>WhatsApp</strong><span id="contactWhatsAppText">Add your business WhatsApp number in the website configuration.</span></div></div>
+    </div>
+    <div class="contact-card"><h2>Have something in mind?</h2><p>Looking for a personalised initial, a cute charm, or a handmade gift? Send us a message and we'll be happy to chat about your idea.</p><a class="btn btn-primary" id="contactWhatsAppLink" href="#contact">Chat on WhatsApp</a><p class="footer-note">Custom requests can be discussed directly with the shop.</p></div>
+  </div>
+</div></section>
+</main>
+<footer class="site-footer"><div class="container"><div class="footer-wrap"><a class="brand" href="#home"><strong>crochetbyfizaa</strong><span>My Crochet Diary — Custom Made with Love</span></a><div class="footer-links"><a href="#home">Home</a><a href="#products">Shop</a><a href="#about">About</a><a href="#contact">Contact</a><a href="mailto:crochetbyfiza@gmail.com">Email us</a></div></div><div class="footer-note">© <span id="year"></span> crochetbyfizaa. Handmade with love. <br>Prices are shown in Indian Rupees (₹).</div></div></footer>
+
+<button class="floating-cart" id="floatingCart" type="button" aria-label="Open shopping cart">♡ Your Cart <span class="count" id="floatingCount">0</span></button>
+<a class="whatsapp-float" id="floatingWhatsApp" href="#contact" aria-label="Chat on WhatsApp">☏ Chat on WhatsApp</a>
+
+<div class="overlay" id="cartOverlay" role="dialog" aria-modal="true" aria-labelledby="cartTitle">
+ <aside class="drawer">
+  <div class="drawer-head"><h2 id="cartTitle">Your little cart ♡</h2><button class="icon-btn" id="closeCart" type="button" aria-label="Close cart">✕</button></div>
+  <div id="cartContent"></div>
+  <div id="checkoutSection" class="checkout hidden">
+    <h3>Delivery details</h3>
+    <p class="footer-note">Please check your details before sending your order.</p>
+    <form id="checkoutForm">
+      <div class="field"><label for="customerName">Customer name *</label><input id="customerName" name="customer_name" autocomplete="name" required maxlength="120"></div>
+      <div class="field"><label for="customerPhone">Phone number *</label><input id="customerPhone" name="customer_phone" type="tel" autocomplete="tel" required maxlength="30" pattern="[0-9+() .-]{7,30}" title="Enter a valid phone number using digits, spaces, +, brackets or dashes."></div>
+      <div class="field"><label for="customerAddress">Delivery address *</label><textarea id="customerAddress" name="delivery_address" autocomplete="street-address" required maxlength="1000"></textarea></div>
+      <div class="field"><label for="specialInstructions">Special instructions (optional)</label><textarea id="specialInstructions" name="special_instructions" maxlength="1000"></textarea></div>
+      <div class="field"><label>Order summary</label><div class="order-summary" id="checkoutSummary"></div></div>
+      <div id="configNotice" class="config-note hidden"></div>
+      <div id="formMessage" class="form-message hidden" role="status" aria-live="polite"></div>
+      <button class="btn btn-primary" id="placeOrderBtn" type="submit">Place Order</button>
+      <a class="btn btn-soft hidden" id="whatsappOrderLink" href="#contact" target="_blank" rel="noopener">Send order via WhatsApp</a>
+    </form>
+  </div>
+ </aside>
+</div>
+<noscript><div class="noscript">Please enable JavaScript to browse products and use the shopping cart.</div></noscript>
+<script>
+"use strict";
+
+/*
+ * SETUP BEFORE DEPLOYMENT:
+ * 1) Replace CONFIG.whatsappNumber with your business number: country code + number, digits only (example: 919876543210).
+ * 2) Replace CONFIG.formspreeId with your Formspree form ID (the part after https://formspree.io/f/).
+ * Until configured, checkout will not pretend to submit an order. Customers can use WhatsApp once its number is configured.
+ */
+const CONFIG = {
+  whatsappNumber: "YOURNUMBER",
+  formspreeId: "YOUR_FORM_ID",
+  shopEmail: "crochetbyfiza@gmail.com"
+};
+
+const PRODUCTS = [
+  {id:"initial-heart-keychain",name:"Initial Heart Keychain",price:450,category:"Keychains",image:"https://i.ibb.co/8nTGW9T0/b357011f-6a46-4a5e-8e25-5cc82fb768e5.jpg",description:"A cute initial heart keychain, perfect for gifting."},
+  {id:"initial-keychain-s",name:"Initial Keychain (S)",price:250,category:"Keychains",image:"https://i.ibb.co/n8VpdyBq/IMG-3180.jpg",description:"A personalised initial keychain with a simple, stylish design."},
+  {id:"hello-kitty-keychain",name:"Hello Kitty Keychain",price:500,category:"Keychains",image:"https://i.ibb.co/PzsMf1mH/IMG-3181.jpg",description:"An adorable Hello Kitty-inspired keychain for everyday use."},
+  {id:"mini-heart-charm",name:"Mini Heart Charm",price:100,category:"Charms",image:"https://i.ibb.co/LzDm0xdN/IMG-3182.jpg",description:"A tiny heart charm, perfect for adding a cute touch to your accessories."},
+  {id:"bow-keychain",name:"Bow Keychain",price:400,category:"Keychains",image:"https://i.ibb.co/NbYBBrS/IMG-3184.jpg",description:"A pretty bow-themed keychain with a charming aesthetic."},
+  {id:"teddy-keychain",name:"Teddy Keychain",price:500,category:"Keychains",image:"https://i.ibb.co/cSK04xjK/IMG-3185.jpg",description:"An adorable teddy-themed keychain, perfect for gifting."},
+  {id:"baby-chick-keychain",name:"Baby Chick Keychain",price:450,category:"Keychains",image:"https://i.ibb.co/mVNF7znr/IMG-3186.jpg",description:"A cute baby chick keychain with a playful look."},
+  {id:"tulip-pot",name:"Tulip Pot",price:600,category:"Crochet Gifts & Decor",image:"https://i.ibb.co/yns2nQmM/IMG-3187.jpg",description:"A lovely tulip pot that makes a thoughtful handmade gift."},
+  {id:"superman",name:"Superman",price:650,category:"Crochet Gifts & Decor",image:"https://i.ibb.co/N6gwh9jg/IMG-3188.jpg",description:"A Superman-themed crochet collectible for fans."}
+];
+const CART_KEY = "crochetbyfizaa_cart_v1";
+const money = amount => new Intl.NumberFormat("en-IN",{style:"currency",currency:"INR",maximumFractionDigits:0}).format(amount);
+const $ = selector => document.querySelector(selector);
+const productById = id => PRODUCTS.find(p => p.id === id);
+let activeFilter = "All";
+let cart = loadCart();
+
+function loadCart(){
+  try{
+    const saved = JSON.parse(localStorage.getItem(CART_KEY) || "[]");
+    if(!Array.isArray(saved)) return [];
+    return saved.map(item => ({id:String(item.id),qty:Math.max(1,Math.min(99,Math.floor(Number(item.qty)||1)))}))
+      .filter(item => productById(item.id));
+  }catch(_){ return []; }
+}
+function saveCart(){
+  try{ localStorage.setItem(CART_KEY,JSON.stringify(cart)); }
+  catch(_){ /* Cart still works for this page view if browser storage is unavailable. */ }
+}
+function cartCount(){return cart.reduce((sum,item)=>sum+item.qty,0);}
+function cartTotal(){return cart.reduce((sum,item)=>sum+(productById(item.id)?.price||0)*item.qty,0);}
+function escapeHTML(value){
+  return String(value).replace(/[&<>"']/g, ch => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[ch]));
+}
+function renderProducts(){
+  const visible = PRODUCTS.filter(p => activeFilter==="All" || p.category===activeFilter);
+  $("#productGrid").innerHTML = visible.map(p => `
+    <article class="product-card">
+      <div class="product-image"><img src="${p.image}" alt="${escapeHTML(p.name)} — handmade crochet product" loading="lazy" decoding="async"></div>
+      <div class="product-info">
+        <div class="product-category">${escapeHTML(p.category)}</div>
+        <h3>${escapeHTML(p.name)}</h3><p>${escapeHTML(p.description)}</p>
+        <div class="product-bottom"><span class="price">${money(p.price)}</span><button class="add-btn" type="button" data-add="${p.id}">＋ Add to Cart</button></div>
+      </div>
+    </article>`).join("");
+  document.querySelectorAll("[data-filter]").forEach(btn=>btn.setAttribute("aria-pressed",String(btn.dataset.filter===activeFilter)));
+}
+function renderCart(){
+  $("#headerCount").textContent=cartCount();
+  $("#floatingCount").textContent=cartCount();
+  const content=$("#cartContent");
+  if(!cart.length){
+    content.innerHTML='<div class="empty-cart"><div class="emoji">🧺</div><h3>Your cart is waiting for a little love</h3><p>Add a handmade favourite and it will appear here.</p><button class="btn btn-soft" type="button" id="continueShopping">Continue shopping</button></div>';
+    $("#checkoutSection").classList.add("hidden");
+    return;
+  }
+  content.innerHTML = `<div class="cart-items">${cart.map(item=>{
+    const p=productById(item.id); if(!p)return "";
+    return `<div class="cart-item"><img src="${p.image}" alt="${escapeHTML(p.name)}" loading="lazy"><div><h3>${escapeHTML(p.name)}</h3><small>${money(p.price)} each</small><div class="quantity"><button type="button" data-qty="${p.id}" data-delta="-1" aria-label="Decrease ${escapeHTML(p.name)} quantity">−</button><span>${item.qty}</span><button type="button" data-qty="${p.id}" data-delta="1" aria-label="Increase ${escapeHTML(p.name)} quantity">+</button></div><button class="remove-btn" type="button" data-remove="${p.id}">Remove</button></div><strong>${money(p.price*item.qty)}</strong></div>`;
+  }).join("")}</div><div class="cart-total"><span>Grand total</span><span>${money(cartTotal())}</span></div><button class="btn btn-primary" type="button" id="goCheckout" style="width:100%">Continue to checkout →</button>`;
+  $("#checkoutSection").classList.add("hidden");
+}
+function openCart(){
+  renderCart();
+  $("#cartOverlay").classList.add("open");
+  document.body.style.overflow="hidden";
+}
+function closeCart(){
+  $("#cartOverlay").classList.remove("open");
+  document.body.style.overflow="";
+}
+function addToCart(id){
+  const found=cart.find(item=>item.id===id);
+  if(found) found.qty=Math.min(99,found.qty+1); else if(productById(id)) cart.push({id,qty:1});
+  saveCart();renderCart();
+  const btn=$(`[data-add="${id}"]`);
+  if(btn){const old=btn.textContent;btn.textContent="Added ♡";setTimeout(()=>{if(btn.isConnected)btn.textContent=old;},900);}
+}
+function orderSummary(){
+  const lines=cart.map(item=>{const p=productById(item.id);return `${p.name}\n  Quantity: ${item.qty} × ${money(p.price)} = ${money(p.price*item.qty)}`;});
+  return `Order for crochetbyfizaa\n\n${lines.join("\n\n")}\n\nGrand total: ${money(cartTotal())}`;
+}
+function configuredWhatsApp(){
+  const n=String(CONFIG.whatsappNumber||"").replace(/\D/g,"");
+  return n && n!=="YOURNUMBER" && n.length>=10 ? n : "";
+}
+function whatsappUrl(message){
+  const number=configuredWhatsApp();
+  return number ? `https://wa.me/${number}?text=${encodeURIComponent(message)}` : "";
+}
+function updateWhatsAppLinks(){
+  const url=whatsappUrl("Hi crochetbyfizaa! I'd love to know more about your crochet products.");
+  const links=[$("#floatingWhatsApp"),$("#contactWhatsAppLink")];
+  links.forEach(link=>{
+    if(url){link.href=url;link.target="_blank";link.rel="noopener";}
+    else {link.href="#contact";link.removeAttribute("target");link.title="Add your business WhatsApp number in the website configuration to activate this link.";}
+  });
+  $("#contactWhatsAppText").textContent=configuredWhatsApp() ? `+${configuredWhatsApp()}` : "Add your business WhatsApp number in the website configuration.";
+}
+function showMessage(message,type){
+  const box=$("#formMessage");box.textContent=message;box.className=`form-message ${type}`;
+}
+function prepareCheckout(){
+  if(!cart.length)return;
+  $("#checkoutSection").classList.remove("hidden");
+  $("#checkoutSummary").textContent=orderSummary();
+  $("#formMessage").classList.add("hidden");
+  $("#whatsappOrderLink").classList.add("hidden");
+  const readyForm=CONFIG.formspreeId && CONFIG.formspreeId!=="YOUR_FORM_ID" && /^[A-Za-z0-9]+$/.test(CONFIG.formspreeId);
+  const readyWA=Boolean(configuredWhatsApp());
+  const notice=$("#configNotice");
+  if(!readyForm || !readyWA){
+    const missing=[];
+    if(!readyForm)missing.push("Formspree form ID");
+    if(!readyWA)missing.push("business WhatsApp number");
+    notice.textContent=`Setup needed before launch: add your ${missing.join(" and ")} in the CONFIG section near the top of this file. Checkout will not claim an order was placed until Formspree confirms submission.`;
+    notice.classList.remove("hidden");
+  }else notice.classList.add("hidden");
+  $("#checkoutSummary").scrollIntoView({block:"nearest",behavior:"smooth"});
+}
+document.addEventListener("click",event=>{
+  const add=event.target.closest("[data-add]");
+  if(add){addToCart(add.dataset.add);return;}
+  const filter=event.target.closest("[data-filter]");
+  if(filter){activeFilter=filter.dataset.filter;renderProducts();return;}
+  const category=event.target.closest("[data-category-link]");
+  if(category){activeFilter=category.dataset.categoryLink;renderProducts();return;}
+  const qty=event.target.closest("[data-qty]");
+  if(qty){
+    const item=cart.find(i=>i.id===qty.dataset.qty);
+    if(item){item.qty=Math.max(0,Math.min(99,item.qty+Number(qty.dataset.delta)));if(item.qty===0)cart=cart.filter(i=>i.id!==item.id);}
+    saveCart();renderCart();if(!cart.length)$("#checkoutSection").classList.add("hidden");return;
+  }
+  const remove=event.target.closest("[data-remove]");
+  if(remove){cart=cart.filter(i=>i.id!==remove.dataset.remove);saveCart();renderCart();return;}
+  if(event.target.closest("#continueShopping")){closeCart();$("#products").scrollIntoView({behavior:"smooth"});return;}
+  if(event.target.closest("#goCheckout")){prepareCheckout();return;}
+});
+$("#headerCart").addEventListener("click",openCart);
+$("#floatingCart").addEventListener("click",openCart);
+$("#closeCart").addEventListener("click",closeCart);
+$("#cartOverlay").addEventListener("click",event=>{if(event.target===$("#cartOverlay"))closeCart();});
+document.addEventListener("keydown",event=>{if(event.key==="Escape")closeCart();});
+$("#menuToggle").addEventListener("click",()=>{
+  const nav=$("#mainNav"),open=nav.classList.toggle("show");
+  $("#menuToggle").setAttribute("aria-expanded",String(open));
+});
+$("#mainNav").addEventListener("click",event=>{
+  if(event.target.closest("a")){$("#mainNav").classList.remove("show");$("#menuToggle").setAttribute("aria-expanded","false");}
+});
+
+$("#checkoutForm").addEventListener("submit",async event=>{
+  event.preventDefault();
+  if(!cart.length){showMessage("Your cart is empty. Add a product before placing an order.","error");return;}
+  const form=event.currentTarget;
+  if(!form.reportValidity())return;
+  const formId=String(CONFIG.formspreeId||"").trim();
+  if(!formId || formId==="YOUR_FORM_ID" || !/^[A-Za-z0-9]+$/.test(formId)){
+    showMessage("Order not sent: the shop's Formspree form ID has not been configured. Please contact the shop by email or add the correct Formspree ID before trying again.","error");
+    const wa=whatsappUrl(`Hi crochetbyfizaa! I'd like to place this order:\n\n${orderSummary()}\n\nCustomer: ${$("#customerName").value.trim()}\nPhone: ${$("#customerPhone").value.trim()}\nDelivery address: ${$("#customerAddress").value.trim()}\nSpecial instructions: ${$("#specialInstructions").value.trim()||"None"}`);
+    if(wa){$("#whatsappOrderLink").href=wa;$("#whatsappOrderLink").classList.remove("hidden");}
+    return;
+  }
+  const submitButton=$("#placeOrderBtn");
+  const orderItems=cart.map(item=>{const p=productById(item.id);return {name:p.name,quantity:item.qty,unit_price:p.price,subtotal:p.price*item.qty};});
+  const payload=new FormData();
+  payload.append("_subject",`New crochetbyfizaa order — ${$("#customerName").value.trim()}`);
+  payload.append("customer_name",$("#customerName").value.trim());
+  payload.append("customer_phone",$("#customerPhone").value.trim());
+  payload.append("delivery_address",$("#customerAddress").value.trim());
+  payload.append("special_instructions",$("#specialInstructions").value.trim()||"None");
+  payload.append("order_items",orderItems.map(i=>`${i.name} | Qty: ${i.quantity} | Unit price: ${money(i.unit_price)} | Subtotal: ${money(i.subtotal)}`).join("\n"));
+  payload.append("grand_total",money(cartTotal()));
+  payload.append("order_summary",orderSummary());
+  payload.append("shop_email",CONFIG.shopEmail);
+  submitButton.disabled=true;submitButton.textContent="Sending order…";
+  try{
+    const response=await fetch(`https://formspree.io/f/${encodeURIComponent(formId)}`,{
+      method:"POST",body:payload,headers:{"Accept":"application/json"}
+    });
+    if(!response.ok)throw new Error("The order service did not accept the submission.");
+    let result={};try{result=await response.json();}catch(_){}
+    if(result.errors)throw new Error("The order service reported a problem. Please check the form configuration and try again.");
+    cart=[];saveCart();renderCart();
+    showMessage("Order received! crochetbyfizaa will contact you to confirm your order.","success");
+    const confirmationWa=whatsappUrl(`Hi crochetbyfizaa! I have submitted an order through your website.\n\n${orderSummary()}\n\nName: ${$("#customerName").value.trim()}\nPhone: ${$("#customerPhone").value.trim()}`);
+    if(confirmationWa){$("#whatsappOrderLink").href=confirmationWa;$("#whatsappOrderLink").textContent="Contact the shop on WhatsApp";$("#whatsappOrderLink").classList.remove("hidden");}
+    $("#checkoutSection").classList.remove("hidden");
+  }catch(error){
+    showMessage("We couldn't confirm your order submission. Your cart has been kept. Please try again or contact the shop directly. "+(error && error.message && error.message!=="Failed to fetch" ? error.message : ""), "error");
+    const wa=whatsappUrl(`Hi crochetbyfizaa! I couldn't complete my website order and would like help.\n\n${orderSummary()}\n\nName: ${$("#customerName").value.trim()}\nPhone: ${$("#customerPhone").value.trim()}\nDelivery address: ${$("#customerAddress").value.trim()}`);
+    if(wa){$("#whatsappOrderLink").href=wa;$("#whatsappOrderLink").textContent="Contact the shop on WhatsApp";$("#whatsappOrderLink").classList.remove("hidden");}
+  }finally{
+    submitButton.disabled=false;submitButton.textContent="Place Order";
+  }
+});
+
+$("#year").textContent=new Date().getFullYear();
+renderProducts();renderCart();updateWhatsAppLinks();
+</script>
+</body>
+</html>
